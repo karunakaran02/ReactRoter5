@@ -11,3 +11,158 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background-color: rgba(22 22 159) !important;
+}
+
+.ant-form {
+  width: 75%;
+}
+
+/* #username{
+  margin-top: 3%;
+  background-image: url("../public/images/user.jpg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  height: 30px;
+} */
+.login {
+  color: aliceblue;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.ant-form-item-label>label {
+  color: aliceblue !important;
+}
+
+.ant-form-item-control-input-content {
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#password {
+  margin-top: 1%;
+  background-image: url("../public/images/ps\ key.jpg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  height: 30px;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  margin-top: 4%;
+  background-color: #3bc9db !important;
+  width: 94%;
+  font-family: sans-serif;
+  color: white;
+}
+
+/* #button{
+  margin-top: 4%;
+  background-color: #3bc9db;
+  height: 35px;
+  width: 70%;
+  font-family: sans-serif;
+  color: white;
+} */
+.forgotPassword {
+  font-size: large;
+  color: antiquewhite;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* #forgotPassword{
+  font-size: x-large;
+  color: antiquewhite;
+  margin-top: 2%;
+  cursor: pointer;
+} */
+#login {
+  color: antiquewhite;
+  font-size: xxx-large;
+}
+
+#dashBoardTextField {
+  margin-top: 3%;
+  width: 50%;
+  height: 20px;
+  margin-left: 3%;
+}
+
+#dashBoardPasswordField {
+  width: 50%;
+  height: 20px;
+  margin-top: 1%;
+  margin-left: 3%;
+}
+
+#dashboardConfirmField {
+  width: 50%;
+  height: 20px;
+  margin-top: 1%;
+}
+
+#dashBoardButtonField {
+  margin-top: 2%;
+}
+
+#tableWraper {
+  background-color: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+  background: url('../public/images/avatar.png');
+}
+
+#UserPage {
+  margin-top: 5%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#avatar {
+  background-image: url("../public/images/avatar.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+#value {
+  margin-left: 10%;
+}
+
+#userEdit {
+  margin-top: 4%;
+  color: aliceblue;
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+#CardComponent {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+
+#logout {
+  margin-top: 4%;
+  cursor: pointer;
+}

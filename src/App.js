@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import { useContext } from 'react';
 import './App.css';
+import { Private } from './login/privateRoute';
+import { Public } from './login/publicRoute';
+import { UserContext } from './UserContext/UserContext';
+
 
 function App() {
+
+  const { hasToken } = useContext(UserContext)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      {hasToken ?
+        <Private />
+        :
+        <Public />
+      }
     </div>
   );
 }
